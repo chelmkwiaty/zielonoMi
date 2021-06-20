@@ -7,15 +7,9 @@
   pointer-events: none;
 }
 
-/* @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-} */
-
 .App-header {
   background-color: white;
-  min-height: 100vh;
+  min-height: 90vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -24,21 +18,36 @@
   color: black;
 }
 
-.App-link {
-  color: #61dafb;
+.text {
+    font-family: "Lobster-Regular";
 }
-
-/* @keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/*menu component */
+.menuLogo{
+  height: 3vmin;
+}
+.navbar-brand{
+  margin-left: 0;
+  margin-right: 1rem;
+}
+/* About component */
+.about {
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: black;
+}
+.link {
+  color: black;
+  padding-top: 5px;
+  padding-right: .5rem;
+  padding-left: .5rem;
+  justify-content: center;
+  text-decoration: none;
+}
+/* .nav-link {
+  padding: .5rem 1rem;
+  display: inline !important;
 } */
-.textLogo {
-  @font-face {
-    font-family: Lobster-Regular;
-    src: url("../src/fonts/Lobster-Regular.ttf") format('ttf');
-  }
-}

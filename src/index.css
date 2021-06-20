@@ -6,5 +6,11 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+@font-face {
+  font-family: "Lobster-Regular";
+  src: local("Lobster-Regular"),
+   url("../src/fonts/Lobster-Regular.ttf") format("truetype");
+  font-weight: bold;
+  }
 
 
