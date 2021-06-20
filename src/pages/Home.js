@@ -15,7 +15,7 @@ const Home = (props) => {
         </p>
         <img src={logo} className="App-logo" alt="logo" />
         <p className="text">
-        ' Wśród kwiatów jak wśród dobrych i szczęśliwych myśli ' L.Staff
+        ' Wśród kwiatów jak wśród dobrych i szczęśliwych myśli '<br/> L.Staff
         </p> 
       </header>
     </div>

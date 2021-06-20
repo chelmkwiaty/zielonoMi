@@ -22,13 +22,16 @@
     font-family: "Lobster-Regular";
 }
 /*menu component */
-.menuLogo{
-  height: 3vmin;
+.menuLogo {
+  height: 30px;
+  padding-left: 10px;
+  padding-bottom: 3px;
 }
 .navbar-brand{
   margin-left: 0;
   margin-right: 1rem;
 }
+
 /* About component */
 .about {
   min-height: 90vh;
@@ -44,10 +47,7 @@
   padding-top: 5px;
   padding-right: .5rem;
   padding-left: .5rem;
-  justify-content: center;
   text-decoration: none;
+  
 }
-/* .nav-link {
-  padding: .5rem 1rem;
-  display: inline !important;
-} */
+
