@@ -9,13 +9,12 @@ import CardMedia from '@material-ui/core/CardMedia';
 import {
   Info,
   InfoCaption,
-  InfoSubtitle,
   InfoTitle,
 } from '@mui-treasury/components/info';
 import { useGalaxyInfoStyles } from '@mui-treasury/styles/info/galaxy';
 import { useCoverCardMediaStyles } from '@mui-treasury/styles/cardMedia/cover';
-import _2 from '../img/cards/_2.jpeg'
-import _1 from '../img/cards/_1.jpg'
+import cardWiazanki from '../img/cards/cardWiazanki.jpg'
+import cardBouquet from '../img/CardBouquet/cardBouquet.jpg'
 import _3 from '../img/cards/_3.jpg'
 
 
@@ -65,11 +64,26 @@ return(
   <Card className={styles.card}>
     <CardMedia
       classes={mediaStyles}
-      image={_2}
+      image={cardWiazanki}
     />
     <Box py={3} px={2} className={styles.content}>
       <Info useStyles={useGalaxyInfoStyles}>
-        <InfoTitle>wiązanki i wieńce pogrzebowe</InfoTitle>
+        <InfoTitle>Wiązanki i wieńce pogrzebowe</InfoTitle>
+        <InfoCaption>Zielono Mi</InfoCaption>
+      </Info>
+    </Box>
+    
+  </Card>
+  </Link>
+  <Link to="/BouquetGallery">
+  <Card className={styles.card}>
+    <CardMedia
+      classes={mediaStyles}
+      image={cardBouquet}
+    />
+    <Box py={3} px={2} className={styles.content}>
+      <Info useStyles={useGalaxyInfoStyles}>
+        <InfoTitle>Bukiety okolicznościowe</InfoTitle>
         <InfoCaption>Zielono Mi</InfoCaption>
       </Info>
     </Box>

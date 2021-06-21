@@ -4,9 +4,11 @@ import Home from './pages/Home'
 import Menu from '../src/components/Menu'
 import About from '../src/pages/About';
 import WiazankiGallery from "../src/pages/WiazankiGallery"
+import BouquetGallery from "../src/pages/BouquetGallery"
 import './App.css';
 
 function App() {
+  
   return (
      <Router>
     <div className="App">
@@ -15,7 +17,7 @@ function App() {
     <Route path="/" exact component={Home}/>
     <Route path="/About" component={About}/>
       <Route path="/WiazankiGallery" component={WiazankiGallery}/>
-    {/* <Route path="/FamilyGallery" component={FamilyGallery}/> */}
+    <Route path="/BouquetGallery" component={BouquetGallery}/>
 
     </Switch>
     </div>

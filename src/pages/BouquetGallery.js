@@ -1,17 +1,17 @@
 import React from 'react'
 import { SRLWrapper } from "simple-react-lightbox";
 import Gallery from "react-photo-gallery";
-import { photos } from "../components/photos";
+import { photos_2 } from "../components/photos";
 
 
-const WiazankiGallery = () => {
+const BouquetGallery = () => {
 
 return (
     <div>
     <SRLWrapper>
-    <Gallery photos={photos} direction={"column"} margin={4}/>
+    <Gallery photos={photos_2} direction={"column"} margin={4}/>
     </SRLWrapper>
     </div>
 )
 }
-export default WiazankiGallery;
+export default BouquetGallery;
