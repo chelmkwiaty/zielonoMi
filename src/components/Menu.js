@@ -3,19 +3,13 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import {useTranslation} from "react-i18next";
 import '../trans/i18n'
 import {
-  Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink 
-  } from 'reactstrap';
+  Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem,} from 'reactstrap';
 import {Link} from 'react-router-dom'
 import leafLogo from '../img/leafLogo.png'
 
  
 
 const Menu = () => {
-
-  const styleNav = {
-    display:"flex",
-    justifyContent:"flex-end"
-  }
 
 const { t } = useTranslation();
 

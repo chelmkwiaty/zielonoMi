@@ -1,11 +1,11 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
 import GoogleFontLoader from 'react-google-font-loader';
 import NoSsr from '@material-ui/core/NoSsr';
 import { makeStyles } from '@material-ui/core/styles';
 import Box from '@material-ui/core/Box';
 import Card from '@material-ui/core/Card';
 import CardMedia from '@material-ui/core/CardMedia';
-import ModalWiazanki from './ModalWiazanki';
 import {
   Info,
   InfoCaption,
@@ -61,6 +61,7 @@ return(
       ]}
     />
   </NoSsr>
+<Link to="/WiazankiGallery">
   <Card className={styles.card}>
     <CardMedia
       classes={mediaStyles}
@@ -68,13 +69,13 @@ return(
     />
     <Box py={3} px={2} className={styles.content}>
       <Info useStyles={useGalaxyInfoStyles}>
-        <InfoSubtitle>Zielono Mi</InfoSubtitle>
         <InfoTitle>wiązanki i wieńce pogrzebowe</InfoTitle>
-        <InfoCaption><ModalWiazanki/></InfoCaption>
+        <InfoCaption>Zielono Mi</InfoCaption>
       </Info>
     </Box>
     
   </Card>
+  </Link>
   </>
   
 )

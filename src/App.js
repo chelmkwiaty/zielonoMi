@@ -3,6 +3,7 @@ import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
 import Home from './pages/Home'
 import Menu from '../src/components/Menu'
 import About from '../src/pages/About';
+import WiazankiGallery from "../src/pages/WiazankiGallery"
 import './App.css';
 
 function App() {
@@ -13,8 +14,8 @@ function App() {
     <Switch>
     <Route path="/" exact component={Home}/>
     <Route path="/About" component={About}/>
-      {/*<Route path="/Contacts" component={Contacts}/>
-    <Route path="/FamilyGallery" component={FamilyGallery}/> */}
+      <Route path="/WiazankiGallery" component={WiazankiGallery}/>
+    {/* <Route path="/FamilyGallery" component={FamilyGallery}/> */}
 
     </Switch>
     </div>
