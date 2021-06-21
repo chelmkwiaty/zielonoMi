@@ -1,8 +1,8 @@
-import _1 from '../img/cards/_1.png'
-import _2 from '../img/cards/_2.png'
-import _3 from '../img/cards/_3.png'
-import _4 from '../img/cards/_4.png'
-import _5 from '../img/cards/_5.png'
+import _1 from '../img/cards/_1.jpg'
+import _2 from '../img/cards/_2.jpeg'
+import _3 from '../img/cards/_3.jpg'
+import _4 from '../img/cards/_4.jpeg'
+import _5 from '../img/cards/_5.jpg'
 import _6 from '../img/cards/_6.jpg'
 import _7 from '../img/cards/_7.jpg'
 import _8 from '../img/cards/_8.jpg'
@@ -13,13 +13,13 @@ export const photos = [
 
   {
     src: _1,
-    width: 1,
-    height: 1
+    width: 6,
+    height: 8
   },
   {
     src: _2,
-    width: 1,
-    height: 1
+    width: 5,
+    height: 7
   },
   {
     src: _3,
@@ -28,8 +28,8 @@ export const photos = [
   },
   {
     src: _4,
-    width: 1,
-    height: 1
+    width: 3,
+    height: 4
   },
   {
     src: _5,
@@ -38,8 +38,8 @@ export const photos = [
   },
   {
     src: _6,
-    width: 1,
-    height: 1
+    width: 4,
+    height: 5
   },
   {
     src: _7,
@@ -48,18 +48,18 @@ export const photos = [
   },
   {
     src: _8,
-    width: 6,
-    height: 9
+    width: 1,
+    height: 1
   },
   {
     src: _9,
-    width: 6,
-    height: 10
+    width: 4,
+    height: 5
   },
   {
     src: _10,
-    width: 6,
-    height: 10
+    width: 4,
+    height: 5
   }
 
 ];

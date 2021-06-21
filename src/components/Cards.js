@@ -14,9 +14,9 @@ import {
 } from '@mui-treasury/components/info';
 import { useGalaxyInfoStyles } from '@mui-treasury/styles/info/galaxy';
 import { useCoverCardMediaStyles } from '@mui-treasury/styles/cardMedia/cover';
-import _2 from '../img/cards/_2.png'
-import _1 from '../img/cards/_1.png'
-import _3 from '../img/cards/_3.png'
+import _2 from '../img/cards/_2.jpeg'
+import _1 from '../img/cards/_1.jpg'
+import _3 from '../img/cards/_3.jpg'
 
 
 const useStyles = makeStyles(() => ({
