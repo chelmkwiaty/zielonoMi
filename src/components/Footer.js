@@ -5,14 +5,19 @@ import gmail from '../img/icons/gmail.png'
 import telephone from '../img/icons/telephone.png'
 import sms from '../img/icons/sms.png'  
 import leafLogo from '../img/leafLogo.png'
+import {useTranslation} from "react-i18next";
+import '../trans/i18n'
 
 const Footer = (props) => {
+
+  const { t } = useTranslation();
+
     return (
         <footer className="footer">
         <div className="footer-left col-md-4 col-sm-6">
           <p className="aboutFooter">
-            <span>O Nas</span><b>Kwiaciarnia ' Zielono Mi '<br/>
-Możliwe zamówienia przez telefon oraz dostawa kwiatów pod podany adres.</b>
+            <span>{t("menu.about")}</span><b>{t("home.name")} ' Zielono Mi '<br/>
+{t("footer.delivery")}</b>
           </p>
           <div className="icons">
           <a href="https://www.facebook.com/zielonomikwiaciarnia/" aria-label="Facebook"><img src={facebook} alt="Facebook"/></a>
@@ -25,8 +30,8 @@ Możliwe zamówienia przez telefon oraz dostawa kwiatów pod podany adres.</b>
         <div className="footer-center col-md-4 col-sm-6">
           <div>
             <i className="fa fa-map-marker"></i>
-            <p><span></span>Adres<br/> ul. Ogrodowa 82, 22-100, Chełm<br/>
-Godziny otwarcia:<br/> Poniedziałek - Niedziela od 8 do 20<br/>Numer konta:<br/>  68 2030 0045 1130 0000 0556 2480</p>
+            <p><span></span>{t("footer.address")}<br/> ul. Ogrodowa 82, 22-100, Chełm<br/>
+{t("footer.hours")}<br/> {t("footer.days")}<br/>{t("footer.account")}<br/>  68 2030 0045 1130 0000 0556 2480</p>
           </div>
           <div>
             <i className="fa fa-phone"></i>

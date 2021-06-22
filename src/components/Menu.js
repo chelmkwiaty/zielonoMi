@@ -25,7 +25,7 @@ return(
     <Collapse isOpen={!collapsed} navbar>
       <Nav navbar>
         <NavItem>
-        <Link className="link" to="/About">About</Link>
+        <Link className="link" to="/About">{t("menu.about")}</Link>
         </NavItem>
         <NavItem>
         <a href="https://www.facebook.com/zielonomikwiaciarnia/" className="link">Facebook</a>

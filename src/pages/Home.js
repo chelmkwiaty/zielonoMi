@@ -13,11 +13,11 @@ const Home = (props) => {
     <div className="App">
       <header className="App-header">
      <p className="text">
-        Kwiaciarnia
+        {t("home.name")}
         </p>
         <img src={logo} className="App-logo" alt="logo" />
         <p className="text">
-        Wśród kwiatów jak wśród dobrych i szczęśliwych myśli<br/> L.Staff
+      {t("home.slogan")}<br/>{t("home.author")}
         </p> 
       </header>
       <main>

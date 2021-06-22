@@ -18,6 +18,8 @@ import cardBouquet from '../img/CardBouquet/cardBouquet.jpg'
 import cardSlub from '../img/CardSlub/cardSlub.jpg'
 import cardKosze from '../img/CardKosze/cardKosze.jpg'
 import cardCmentar from '../img/CardCmentar/cardCmentar.jpg'
+import {useTranslation} from "react-i18next";
+import '../trans/i18n'
 
 const useStyles = makeStyles(() => ({
   card: {
@@ -48,6 +50,7 @@ const useStyles = makeStyles(() => ({
 
 const Cards = () => {
 
+  const { t } = useTranslation();
   const mediaStyles = useCoverCardMediaStyles({ bgPosition: 'top' });
   const styles = useStyles();
   
@@ -61,21 +64,6 @@ return(
       ]}
     />
   </NoSsr>
-<Link to="/WiazankiGallery">
-  <Card className={styles.card}>
-    <CardMedia
-      classes={mediaStyles}
-      image={cardWiazanki}
-    />
-    <Box py={3} px={2} className={styles.content}>
-      <Info useStyles={useGalaxyInfoStyles}>
-        <InfoTitle>Wiązanki i wieńce pogrzebowe</InfoTitle>
-        <InfoCaption>Zielono Mi</InfoCaption>
-      </Info>
-    </Box>
-    
-  </Card>
-  </Link>
   <Link to="/BouquetGallery">
   <Card className={styles.card}>
     <CardMedia
@@ -84,7 +72,7 @@ return(
     />
     <Box py={3} px={2} className={styles.content}>
       <Info useStyles={useGalaxyInfoStyles}>
-        <InfoTitle>Bukiety okolicznościowe</InfoTitle>
+        <InfoTitle>{t("cards.special")}</InfoTitle>
         <InfoCaption>Zielono Mi</InfoCaption>
       </Info>
     </Box>
@@ -99,7 +87,7 @@ return(
     />
     <Box py={3} px={2} className={styles.content}>
       <Info useStyles={useGalaxyInfoStyles}>
-        <InfoTitle>Dekoracje i bukiety ślubne</InfoTitle>
+        <InfoTitle>{t("cards.wedding")}</InfoTitle>
         <InfoCaption>Zielono Mi</InfoCaption>
       </Info>
     </Box>
@@ -114,7 +102,22 @@ return(
     />
     <Box py={3} px={2} className={styles.content}>
       <Info useStyles={useGalaxyInfoStyles}>
-        <InfoTitle>Kosze i kompozycje kwiatowe</InfoTitle>
+        <InfoTitle>{t("cards.flower")}</InfoTitle>
+        <InfoCaption>Zielono Mi</InfoCaption>
+      </Info>
+    </Box>
+    
+  </Card>
+  </Link>
+  <Link to="/WiazankiGallery">
+  <Card className={styles.card}>
+    <CardMedia
+      classes={mediaStyles}
+      image={cardWiazanki}
+    />
+    <Box py={3} px={2} className={styles.content}>
+      <Info useStyles={useGalaxyInfoStyles}>
+        <InfoTitle>{t("cards.wiazanki")}</InfoTitle>
         <InfoCaption>Zielono Mi</InfoCaption>
       </Info>
     </Box>
@@ -129,7 +132,7 @@ return(
     />
     <Box py={3} px={2} className={styles.content}>
       <Info useStyles={useGalaxyInfoStyles}>
-        <InfoTitle>Dekoracje cmentarne</InfoTitle>
+        <InfoTitle>{t("cards.cemetery")}</InfoTitle>
         <InfoCaption>Zielono Mi</InfoCaption>
       </Info>
     </Box>

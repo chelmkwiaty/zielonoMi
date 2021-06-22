@@ -1,12 +1,14 @@
 import i18n from "i18next";
 import { initReactI18next } from "react-i18next";
 import detector from "i18next-browser-languagedetector";
+import backend from "i18next-http-backend";
 import en from './en';
 import ru from './ru';
 import pl from './pl';
 
 i18n
     .use(detector)
+    .use(backend)
     .use(initReactI18next)
     .init({
         resources: {
@@ -21,7 +23,7 @@ i18n
             }
         },
         debug: true,
-        fallbackLng: "pl",
+        fallbackLng: "en",
         interpolation: {
             escapeValue: false
         }
