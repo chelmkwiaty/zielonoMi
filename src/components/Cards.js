@@ -15,6 +15,7 @@ import { useGalaxyInfoStyles } from '@mui-treasury/styles/info/galaxy';
 import { useCoverCardMediaStyles } from '@mui-treasury/styles/cardMedia/cover';
 import cardWiazanki from '../img/cards/cardWiazanki.jpg'
 import cardBouquet from '../img/CardBouquet/cardBouquet.jpg'
+import cardSlub from '../img/CardSlub/cardSlub.jpg'
 import _3 from '../img/cards/_3.jpg'
 
 
@@ -84,6 +85,21 @@ return(
     <Box py={3} px={2} className={styles.content}>
       <Info useStyles={useGalaxyInfoStyles}>
         <InfoTitle>Bukiety okolicznościowe</InfoTitle>
+        <InfoCaption>Zielono Mi</InfoCaption>
+      </Info>
+    </Box>
+    
+  </Card>
+  </Link>
+  <Link to="/SlubGallery">
+  <Card className={styles.card}>
+    <CardMedia
+      classes={mediaStyles}
+      image={cardSlub}
+    />
+    <Box py={3} px={2} className={styles.content}>
+      <Info useStyles={useGalaxyInfoStyles}>
+        <InfoTitle>Dekoracje i bukiety ślubne</InfoTitle>
         <InfoCaption>Zielono Mi</InfoCaption>
       </Info>
     </Box>

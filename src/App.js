@@ -5,6 +5,7 @@ import Menu from '../src/components/Menu'
 import About from '../src/pages/About';
 import WiazankiGallery from "../src/pages/WiazankiGallery"
 import BouquetGallery from "../src/pages/BouquetGallery"
+import SlubGallery from "../src/pages/SlubGallery"
 import './App.css';
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
     <Route path="/About" component={About}/>
       <Route path="/WiazankiGallery" component={WiazankiGallery}/>
     <Route path="/BouquetGallery" component={BouquetGallery}/>
+    <Route path="/SlubGallery" component={SlubGallery}/>
 
     </Switch>
     </div>
