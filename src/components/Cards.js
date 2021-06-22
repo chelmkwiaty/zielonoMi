@@ -121,7 +121,7 @@ return(
     
   </Card>
   </Link>
-  <Link to="/KoszeGallery">
+  <Link to="/CmentarGallery">
   <Card className={styles.card}>
     <CardMedia
       classes={mediaStyles}

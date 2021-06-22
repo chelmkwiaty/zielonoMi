@@ -44,7 +44,7 @@ import _43 from '../img/CardKosze/_43.jpg'
 import _44 from '../img/CardKosze/_44.jpg'
 import _45 from '../img/CardKosze/_45.jpg'
 import _46 from '../img/CardCmentar/_46.jpg'
-import _47 from '../img/CardCmentar/_47.jpg'
+import _47 from '../img/CardCmentar/_47.jpeg'
 import _48 from '../img/CardCmentar/_48.jpg'
 import _49 from '../img/CardCmentar/_49.jpg'
 import _50 from '../img/CardCmentar/_50.jpg'
@@ -125,18 +125,18 @@ export const photos_2 = [
   },
   {
     src: _13,
-    width: 1,
-    height: 1
+    width: 6,
+    height: 7
   },
   {
     src: _14,
-    width: 3,
+    width: 4,
     height: 4
   },
   {
     src: _15,
-    width: 1,
-    height: 1
+    width: 7,
+    height: 7
   },
   {
     src: _16,
@@ -208,8 +208,8 @@ export const photos_3 = [
   },
   {
     src: _29,
-    width: 6,
-    height: 6
+    width: 5,
+    height: 4
   },
   {
     src: _30,
@@ -298,12 +298,12 @@ export const photos_5 = [
   {
     src: _46,
     width: 2,
-    height: 3
+    height: 2
   },
   {
     src: _47,
-    width: 1,
-    height: 1
+    width: 2,
+    height: 3
   },
   {
     src: _48,
