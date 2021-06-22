@@ -3,6 +3,7 @@ import logo from '../img/logo.png';
 import {useTranslation} from "react-i18next";
 import '../trans/i18n'
 import Cards from '../components/Cards'
+import Footer from '../components/Footer'
 
 const Home = (props) => {
 
@@ -22,6 +23,7 @@ const Home = (props) => {
       <main>
 <Cards/>
       </main>
+      <Footer/>
     </div>
   );
 }
