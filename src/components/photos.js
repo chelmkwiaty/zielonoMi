@@ -43,6 +43,18 @@ import _42 from '../img/CardKosze/_42.jpg'
 import _43 from '../img/CardKosze/_43.jpg'
 import _44 from '../img/CardKosze/_44.jpg'
 import _45 from '../img/CardKosze/_45.jpg'
+import _46 from '../img/CardCmentar/_46.jpg'
+import _47 from '../img/CardCmentar/_47.jpg'
+import _48 from '../img/CardCmentar/_48.jpg'
+import _49 from '../img/CardCmentar/_49.jpg'
+import _50 from '../img/CardCmentar/_50.jpg'
+import _51 from '../img/CardCmentar/_51.jpg'
+import _52 from '../img/CardCmentar/_52.jpg'
+import _53 from '../img/CardCmentar/_53.jpg'
+import _54 from '../img/CardCmentar/_54.jpg'
+import _55 from '../img/CardCmentar/_55.jpg'
+import _56 from '../img/CardCmentar/_56.jpg'
+import _57 from '../img/CardCmentar/_57.jpg'
 
 
 export const photos = [
@@ -278,6 +290,68 @@ export const photos_4 = [
   },
   {
     src: _45,
+    width: 5,
+    height: 6
+  }
+]; 
+export const photos_5 = [
+  {
+    src: _46,
+    width: 2,
+    height: 3
+  },
+  {
+    src: _47,
+    width: 1,
+    height: 1
+  },
+  {
+    src: _48,
+    width: 2,
+    height: 3
+  },
+  {
+    src: _49,
+    width: 6,
+    height: 5
+  },
+  {
+    src: _50,
+    width: 1,
+    height: 1
+  },
+  {
+    src: _51,
+    width: 4,
+    height: 6
+  },
+  {
+    src: _52,
+    width: 4,
+    height: 5
+  },
+  {
+    src: _53,
+    width: 1,
+    height: 1
+  },
+  {
+    src: _54,
+    width: 4,
+    height: 5
+  },
+  {
+    src: _55,
+    width: 5,
+    height: 6
+  },
+  {
+    src: _56,
+    width: 5,
+    height: 6
+  },
+  {
+    src: _57,
     width: 5,
     height: 6
   }

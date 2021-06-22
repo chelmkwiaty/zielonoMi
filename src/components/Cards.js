@@ -17,7 +17,7 @@ import cardWiazanki from '../img/cards/cardWiazanki.jpg'
 import cardBouquet from '../img/CardBouquet/cardBouquet.jpg'
 import cardSlub from '../img/CardSlub/cardSlub.jpg'
 import cardKosze from '../img/CardKosze/cardKosze.jpg'
-
+import cardCmentar from '../img/CardCmentar/cardCmentar.jpg'
 
 const useStyles = makeStyles(() => ({
   card: {
@@ -115,6 +115,21 @@ return(
     <Box py={3} px={2} className={styles.content}>
       <Info useStyles={useGalaxyInfoStyles}>
         <InfoTitle>Kosze i kompozycje kwiatowe</InfoTitle>
+        <InfoCaption>Zielono Mi</InfoCaption>
+      </Info>
+    </Box>
+    
+  </Card>
+  </Link>
+  <Link to="/KoszeGallery">
+  <Card className={styles.card}>
+    <CardMedia
+      classes={mediaStyles}
+      image={cardCmentar}
+    />
+    <Box py={3} px={2} className={styles.content}>
+      <Info useStyles={useGalaxyInfoStyles}>
+        <InfoTitle>Dekoracje cmentarne</InfoTitle>
         <InfoCaption>Zielono Mi</InfoCaption>
       </Info>
     </Box>
