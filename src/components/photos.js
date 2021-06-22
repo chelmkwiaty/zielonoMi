@@ -33,6 +33,16 @@ import _32 from '../img/CardSlub/_32.jpg'
 import _33 from '../img/CardSlub/_33.jpg'
 import _34 from '../img/CardSlub/_34.jpg'
 import _35 from '../img/CardSlub/_35.jpg'
+import _36 from '../img/CardKosze/_36.jpg'
+import _37 from '../img/CardKosze/_37.jpg'
+import _38 from '../img/CardKosze/_38.jpg'
+import _39 from '../img/CardKosze/_39.jpg'
+import _40 from '../img/CardKosze/_40.jpg'
+import _41 from '../img/CardKosze/_41.jpg'
+import _42 from '../img/CardKosze/_42.jpg'
+import _43 from '../img/CardKosze/_43.jpg'
+import _44 from '../img/CardKosze/_44.jpg'
+import _45 from '../img/CardKosze/_45.jpg'
 
 
 export const photos = [
@@ -219,5 +229,56 @@ export const photos_3 = [
     width: 4,
     height: 5
   }
-]
- 
+];
+export const photos_4 = [
+  {
+    src: _36,
+    width: 2,
+    height: 3
+  },
+  {
+    src: _37,
+    width: 1,
+    height: 1
+  },
+  {
+    src: _38,
+    width: 2,
+    height: 3
+  },
+  {
+    src: _39,
+    width: 6,
+    height: 5
+  },
+  {
+    src: _40,
+    width: 1,
+    height: 1
+  },
+  {
+    src: _41,
+    width: 4,
+    height: 6
+  },
+  {
+    src: _42,
+    width: 4,
+    height: 5
+  },
+  {
+    src: _43,
+    width: 1,
+    height: 1
+  },
+  {
+    src: _44,
+    width: 4,
+    height: 5
+  },
+  {
+    src: _45,
+    width: 5,
+    height: 6
+  }
+]; 

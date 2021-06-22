@@ -6,10 +6,11 @@ import About from '../src/pages/About';
 import WiazankiGallery from "../src/pages/WiazankiGallery"
 import BouquetGallery from "../src/pages/BouquetGallery"
 import SlubGallery from "../src/pages/SlubGallery"
+import KoszeGallery from "../src/pages/KoszeGallery"
 import './App.css';
 
 function App() {
-  
+ 
   return (
      <Router>
     <div className="App">
@@ -20,6 +21,7 @@ function App() {
       <Route path="/WiazankiGallery" component={WiazankiGallery}/>
     <Route path="/BouquetGallery" component={BouquetGallery}/>
     <Route path="/SlubGallery" component={SlubGallery}/>
+    <Route path="/KoszeGallery" component={KoszeGallery}/>
 
     </Switch>
     </div>
