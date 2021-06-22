@@ -8,7 +8,6 @@ import pl from './pl';
 
 i18n
     .use(detector)
-    .use(backend)
     .use(initReactI18next)
     .init({
         resources: {
