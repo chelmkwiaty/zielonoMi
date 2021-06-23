@@ -1,7 +1,7 @@
 export default {
     home: {
         name:"Flower Shop",
-        slogan:"Among flowers as among good and happy thoughts",
+        slogan:"Among flowers like among beautiful and happy thoughts",
         author:"L. Staff"
     },
     menu: {
@@ -9,8 +9,8 @@ export default {
     },
     about: {
         family:"Family flower shop",
-        year:"with a 30-year tradition.",
-        motto:"Our motto:"
+        year:"run by a family with 30 years of unbreaking tradition",
+        motto:"Our motto is:"
     },
     cards: {
         wiazanki:"Funeral wreaths and bouquets",
