@@ -10,15 +10,16 @@ i18n
     .use(initReactI18next)
     .init({
         resources: {
+            pl: {
+                translation: pl,
+            },
             en: {
                 translation: en,
             },
-            ru:{
+            ru: {
                 translation: ru,
-            },
-            pl:{
-                translation: pl,
             }
+            
         },
         debug: true,
         fallbackLng: "en",
