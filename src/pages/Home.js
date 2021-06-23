@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../img/logo.png';
+import logo from '../img/logo.webp';
 import {useTranslation} from "react-i18next";
 import '../trans/i18n'
 import Cards from '../components/Cards'

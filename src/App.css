@@ -75,7 +75,6 @@
 
 .footer .footer-left {
   width: 33%;
-  padding-right: 15px;
 }
 
 .footer .aboutFooter {
@@ -96,6 +95,7 @@
 
 .footer .icons {
   margin-top: 25px;
+  margin-bottom: 25px;
 }
 
 .footer .icons a {
@@ -103,7 +103,7 @@
   width: 35px;
   height: 35px;
   cursor: pointer;
-  background-color: #c9d2d8;
+  background-color: rgb(255, 255, 255);
   border-radius: 2px;
   font-size: 20px;
   color: black;
@@ -209,7 +209,6 @@
   .footer .footer-right {
     display: block;
     width: 100%;
-    margin-bottom: 40px;
     text-align: center;
   }
   .footer .footer-center i {

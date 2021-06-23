@@ -4,7 +4,7 @@ import location from '../img/icons/location.png'
 import gmail from '../img/icons/gmail.png'
 import telephone from '../img/icons/telephone.png'
 import sms from '../img/icons/sms.png'  
-import leafLogo from '../img/leafLogo.png'
+import leafLogo from '../img/leafLogo.webp'
 import {useTranslation} from "react-i18next";
 import '../trans/i18n'
 

@@ -13,11 +13,11 @@ import {
 } from '@mui-treasury/components/info';
 import { useGalaxyInfoStyles } from '@mui-treasury/styles/info/galaxy';
 import { useCoverCardMediaStyles } from '@mui-treasury/styles/cardMedia/cover';
-import cardWiazanki from '../img/cards/cardWiazanki.jpg'
+import cardWiazanki from '../img/cards/cardWiazanki.webp'
 import cardBouquet from '../img/CardBouquet/cardBouquet.webp'
-import cardSlub from '../img/CardSlub/cardSlub.jpg'
-import cardKosze from '../img/CardKosze/cardKosze.jpg'
-import cardCmentar from '../img/CardCmentar/cardCmentar.jpg'
+import cardSlub from '../img/CardSlub/cardSlub.webp'
+import cardKosze from '../img/CardKosze/cardKosze.webp'
+import cardCmentar from '../img/CardCmentar/cardCmentar.webp'
 import {useTranslation} from "react-i18next";
 import '../trans/i18n'
 

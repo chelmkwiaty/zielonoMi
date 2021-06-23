@@ -5,7 +5,7 @@ import '../trans/i18n'
 import {
   Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem,} from 'reactstrap';
 import {Link} from 'react-router-dom'
-import leafLogo from '../img/leafLogo.png'
+import leafLogo from '../img/leafLogo.webp'
 
  
 
