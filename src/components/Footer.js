@@ -20,11 +20,11 @@ const Footer = (props) => {
 {t("footer.delivery")}</b>
           </p>
           <div className="icons">
-          <a href="https://www.facebook.com/zielonomikwiaciarnia/" aria-label="Facebook"><img src={facebook} alt="Facebook"/></a>
-              <a href="mailto:annatulidowicz@gmail.com" aria-label="Gmail"><img src={gmail} alt="Gmail"/></a>
-              <a href="https://maps.google.com/?ll=51.128629,23.458564" aria-label="Location"><img src={location} alt="Location"/></a>
-              <a href="tel:504-075-908" aria-label="Telephone"><img src={telephone} alt="Telephone"/></a>
-              <a href="sms:+48504075908" aria-label="sms"><img src={sms} alt="sms"/></a>
+              <a href="https://www.facebook.com/zielonomikwiaciarnia/" aria-label="Facebook"><img className="facebook" src={facebook} alt="Facebook"/></a>
+              <a href="mailto:annatulidowicz@gmail.com" aria-label="Gmail"><img className="gmail" src={gmail} alt="Gmail"/></a>
+              <a href="https://maps.google.com/?ll=51.128629,23.458564" aria-label="Location"><img className="location" src={location} alt="Location"/></a>
+              <a href="tel:504-075-908" aria-label="Telephone"><img className="telephone" src={telephone} alt="Telephone"/></a>
+              <a href="sms:+48504075908" aria-label="sms"><img className="sms" src={sms} alt="sms"/></a>
             </div>
         </div>
         <div className="footer-center col-md-4 col-sm-6">
@@ -35,11 +35,11 @@ const Footer = (props) => {
           </div>
           <div>
             <i className="fa fa-phone"></i>
-            <a href="tel:504-075-908" aria-label="Telephone"><p> (+48) 504 075 908</p></a>
+            <a className="phoneLink" href="tel:504-075-908" aria-label="Telephone">(+48) 504 075 908</a>
           </div>
           <div>
               <i className="fa-envelope"></i>
-            <a href="mailto:annatulidowicz@gmail.com" aria-label="Mail me"> annatulidowicz@gmail.com</a>
+            <a className="mailLink" href="mailto:annatulidowicz@gmail.com" aria-label="Mail me"> annatulidowicz@gmail.com</a>
           </div>
         </div>
         <div className="footer-right col-md-4 col-sm-6">
