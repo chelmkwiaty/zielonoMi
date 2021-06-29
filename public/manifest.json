@@ -8,9 +8,9 @@
       "type": "image/x-icon"
     },
     {
-      "src": "logo64x128.webp",
+      "src": "leafLogo50x70",
       "type": "image/webp",
-      "sizes": "64x128"
+      "sizes": "50x70"
     }
     
   ],
