@@ -1,10 +1,10 @@
 import React from 'react'
-import facebook from '../img/icons/facebook.png'
+import facebook from '../img/icons/facebook.svg'
 import location from '../img/icons/location.png'
-import gmail from '../img/icons/gmail.png'
-import telephone from '../img/icons/telephone.png'
-import sms from '../img/icons/sms.png'  
-import leafLogo from '../img/leafLogo.webp'
+import gmail from '../img/icons/gmail.svg'
+import telephone from '../img/icons/telephone.svg'
+import sms from '../img/icons/sms.svg'  
+import leafLogo from '../img/leafLogo50x70.webp'
 import {useTranslation} from "react-i18next";
 import '../trans/i18n'
 
@@ -20,8 +20,8 @@ const Footer = (props) => {
 {t("footer.delivery")}</b>
           </p>
           <div className="icons">
+          <a href="mailto:annatulidowicz@gmail.com" aria-label="Gmail"><img className="gmail" src={gmail} alt="Gmail"/></a>
               <a href="https://www.facebook.com/zielonomikwiaciarnia/" aria-label="Facebook"><img className="facebook" src={facebook} alt="Facebook"/></a>
-              <a href="mailto:annatulidowicz@gmail.com" aria-label="Gmail"><img className="gmail" src={gmail} alt="Gmail"/></a>
               <a href="https://maps.google.com/?ll=51.128629,23.458564" aria-label="Location"><img className="location" src={location} alt="Location"/></a>
               <a href="tel:504-075-908" aria-label="Telephone"><img className="telephone" src={telephone} alt="Telephone"/></a>
               <a href="sms:+48504075908" aria-label="sms"><img className="sms" src={sms} alt="sms"/></a>

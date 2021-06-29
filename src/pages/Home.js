@@ -10,7 +10,7 @@ import Footer from '../components/Footer'
 const Home = (props) => {
 
   const [loading, setLoading] = useState(false);
-  const [color, setColor] = useState("#00FF00");
+  const [color] = useState("#00FF00");
 
   useEffect(() => {
   setLoading(true)
@@ -29,7 +29,7 @@ const Home = (props) => {
          <div className="loading">
            <div className="sloganContainer">
            <h2>Zielono Mi</h2>
-       <p loading={loading}>{t("home.name")}</p>
+       <p>{t("home.name")}</p>
        <PropagateLoader className="propagate" color={color}/>
        </div>
        </div>
