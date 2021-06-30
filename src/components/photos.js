@@ -297,8 +297,8 @@ export const photos_4 = [
 export const photos_5 = [
   {
     src: _46,
-    width: 2,
-    height: 2
+    width: 4,
+    height: 5
   },
   {
     src: _47,
