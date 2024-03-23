@@ -31,7 +31,7 @@ const Footer = (props) => {
           <div>
             <i className="fa fa-map-marker"></i>
             <p><span></span>{t("footer.address")}<br/> ul. Ogrodowa 82, 22-100, Chełm<br/>
-{t("footer.hours")}<br/> {t("footer.days")}<br/>{t("footer.account")}<br/>  68 2030 0045 1130 0000 0556 2480</p>
+{t("footer.hours")}<br/> {t("footer.days")}<br/>{t("footer.account")}<br/>  53 2490 0005 0000 4530 0004 8404</p>
           </div>
           <div>
             <i className="fa fa-phone"></i>
